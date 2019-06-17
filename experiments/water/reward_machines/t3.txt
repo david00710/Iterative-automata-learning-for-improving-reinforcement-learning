@@ -1,0 +1,7 @@
+1 # initial state
+(1,1,'!e',ConstantRewardFunction(0))
+(1,0,'e&!f',ConstantRewardFunction(0))
+(1,2,'e&f',ConstantRewardFunction(1))
+(0,0,'!f',ConstantRewardFunction(0))
+(0,2,'f',ConstantRewardFunction(1))
+(2,2,'True',ConstantRewardFunction(0))
